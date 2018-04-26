@@ -17452,6 +17452,8 @@ with pkgs;
 
   qnotero = callPackage ../applications/office/qnotero { };
 
+  qownnotes = libsForQt5.callPackage ../applications/editors/qownnotes { };
+
   qrcode = callPackage ../tools/graphics/qrcode {};
 
   qsampler = libsForQt5.callPackage ../applications/audio/qsampler { };
